@@ -6,17 +6,9 @@ opts_chunk$set(fig.path='figure/minimal-', fig.align='center', fig.show='hold')
 options(replace.assign=FALSE,width=90)
 
 
-## ----repos, eval=FALSE---------------------------------------------------
-## #Packages from Bioconductor
-## source("http://bioconductor.org/biocLite.R")
-## biocLite(c("edgeR","biomaRt","GenomicFeatures"))
-## #Packages from CRAN
-## install.packages(c("R2HTML","data.table","rbamtools"))
-
-
-## ----installing, eval=FALSE----------------------------------------------
-## setwd("D:/Downloads") #Locate the folder with the downloaded package files
-## install.packages("CAGExploreR_1.0.tar.gz",type="source")
+## ----autoinstall, eval=FALSE---------------------------------------------
+## setRepositories(ind=1:6)
+## install.packages("CAGExploreR")
 
 
 ## ----loading-------------------------------------------------------------
@@ -39,8 +31,8 @@ EnsemblAnot = prepEnsemblAnot(EnsemblAnot)
 
 ## ----saveEnsemblAnot,eval=FALSE------------------------------------------
 ## save(EnsemblAnot,file="EnsemblAnot.RData")
+## #can append today's date to the file for version tracking:
 ## #save(EnsemblAnot,file=paste0("EnsemblAnot",Sys.Date(),".RData"))
-## #can append today's date to the file for version tracking
 
 
 ## ----loadEnsemblAnot,eval=FALSE------------------------------------------
@@ -58,13 +50,21 @@ EnsemblAnot = prepEnsemblAnot(EnsemblAnot)
 
 ## ----filesB, eval=TRUE---------------------------------------------------
 my.bai.files = c("wgEncodeRikenCageA549CellPapAlnRep1.bam.bai"
+
 ,"wgEncodeRikenCageA549CellPapAlnRep2.bam.bai"
+
 ,"wgEncodeRikenCageMcf7CellPapAlnRep1.bam.bai"
+
 ,"wgEncodeRikenCageMcf7CellPapAlnRep2.bam.bai")
+
 my.bam.files = c("wgEncodeRikenCageA549CellPapAlnRep1.bam"
+
 ,"wgEncodeRikenCageA549CellPapAlnRep2.bam"
+
 ,"wgEncodeRikenCageMcf7CellPapAlnRep1.bam"
+
 ,"wgEncodeRikenCageMcf7CellPapAlnRep2.bam")
+
 my.ids = c("a549.1","a549.2","mcf7.1","mcf7.2")
 
 
