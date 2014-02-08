@@ -1,6 +1,6 @@
-da1c8dadfee5315d6322a08364063f41 *DESCRIPTION
+802777066e1284c8c2b011b4fcc49dc2 *DESCRIPTION
 18dd8e0a1f8cc94cf6398e4d705629d9 *LICENSE
-5d0647fe9e45a610cdf441a429b5fbb9 *NAMESPACE
+d77ca2d7c46d8bbedca06f2fad726d1a *NAMESPACE
 4a690ab61815ddb54b26b6b459d163b9 *R/GREP.R
 ca354ebf462859a28af2f0077136af55 *R/Select.R
 78a9b4ecf68ce9ab98cf9c1b7fef40ae *R/convert.R
@@ -32,7 +32,7 @@ de9a2acb6a330668c9891430c4d82459 *data/mcf7a549.raw.counts.F5.RData
 3fb8360971346ef43707fca86d6fad6e *data/mpromdb.hg19.promoters.RData
 32e7fd4e167129e115c179d87fa9fdbb *inst/doc/CAGExploreR.R
 67f0a847d50cc8cbad9748e261de037d *inst/doc/CAGExploreR.Rnw
-9cbacef51a30272734193dc21a9b89be *inst/doc/CAGExploreR.pdf
+e29c8b0a76020a8991ce5c726452b7ba *inst/doc/CAGExploreR.pdf
 0716b672eb727156dcff6f82841a0c17 *man/CAGExploreR-package.Rd
 c04d7eac7f5fdb02c7c69e45435df1f8 *man/EnsemblAnot_chr22.Rd
 6f0e5d1b9183d8eaaacec8537c4f3f93 *man/F5.hg19.promoters.Rd
